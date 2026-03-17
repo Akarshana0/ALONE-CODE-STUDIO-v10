@@ -1,0 +1,35 @@
+{
+  "name": "ALONE CODE STUDIO",
+  "short_name": "ACS",
+  "description": "Professional offline IDE — iOS, Android, Windows, Linux. All VS Code features.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#080b14",
+  "theme_color": "#080b14",
+  "icons": [
+    { "src": "icons/icon-16.png",  "sizes": "16x16",   "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-32.png",  "sizes": "32x32",   "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-48.png",  "sizes": "48x48",   "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-96.png",  "sizes": "96x96",   "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-144.png", "sizes": "144x144", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "categories": ["developer", "utilities", "productivity"],
+  "shortcuts": [
+    {
+      "name": "New File",
+      "short_name": "New",
+      "url": "./index.html?new=1",
+      "icons": [{ "src": "icons/icon-96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Import File",
+      "short_name": "Import",
+      "url": "./index.html?import=1",
+      "icons": [{ "src": "icons/icon-96.png", "sizes": "96x96" }]
+    }
+  ]
+}
